@@ -1,4 +1,4 @@
-Tested in After Effects 2020 // Made by ChatGPT
+Tested in After Effects 2020 // Made with ChatGPT
 
 Slice layer in After Effects every N frames // On Timeline  
 slice_layer_every_n_frame.jsx // 3 Frames in example 
