@@ -5,4 +5,4 @@ Slice layer in After Effects every N frames // On Timeline
 
 
 Merge every N frames in Pre-Comp in After Effects // On Timeline  
-merge_n_frame_in_pre-comp.jsx // 3 Frames in example
+[merge_n_frame_in_pre-comp.jsx](https://aleksandrovskyv.github.io/aescripts/merge_n_frame_in_pre-comp.jsx)   // 3 Frames in example
