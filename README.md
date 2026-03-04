@@ -1,7 +1,4 @@
----
----
 
-<link rel="stylesheet" href="https://vsky.space">
 
 # AEScripts Notes
 
