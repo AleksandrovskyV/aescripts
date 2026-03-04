@@ -1,8 +1,9 @@
 ---
-layout: default
 ---
+
 <link rel="stylesheet" href="https://vsky.space">
 
+# AEScripts Notes
 
 Tested in After Effects 2020 // Made with ChatGPT
 
