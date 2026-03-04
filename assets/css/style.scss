@@ -1,17 +1,12 @@
 ---
 ---
+@import "{{ site.theme }}"; // импорт текущей темы
+
 body {
-    background-color: #0c0c0c !important;
-    color: #e2e2e2 !important;
+  background-color: #1a1a1a; // темный фон
+  color: #e0e0e0;           // светлый текст
 }
 
 table {
-    border: 1px solid #444 !important;
-    border-collapse: collapse !important;
-    width: 100% !important;
-}
-
-th, td {
-    border: 1px solid #444 !important;
-    padding: 10px !important;
+  border: 1px solid #444;   // чтобы таблицы были видны на темном
 }
