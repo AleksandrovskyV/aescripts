@@ -1,3 +1,9 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://vsky.space">
+
+
 Tested in After Effects 2020 // Made with ChatGPT
 
 Slice layer in After Effects every N frames // On Timeline  
