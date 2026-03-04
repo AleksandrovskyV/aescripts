@@ -7,6 +7,10 @@ body {
   color: #e0e0e0;           // светлый текст
 }
 
+h1, h2 {
+  border-bottom: 1px solid #333 !important;
+}
+
 table {
   border: 1px solid #444;   // чтобы таблицы были видны на темном
 }
