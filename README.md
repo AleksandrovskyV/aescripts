@@ -1,3 +1,10 @@
+<style>
+  body { background-color: #121212 !important; color: #ffffff !important; }
+  table { border: 1px solid #444; border-collapse: collapse; }
+  th, td { border: 1px solid #444; padding: 8px; }
+  a { color: #4da6ff; }
+</style>
+
 Tested in After Effects 2020 // Made with ChatGPT
 
 Slice layer in After Effects every N frames // On Timeline  
