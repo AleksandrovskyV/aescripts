@@ -7,15 +7,16 @@ body {
   color: #e0e0e0;           // светлый текст
 }
 
-h1, h2 {
-  border-bottom: 1px solid #333 !important;
+/* Убираем синий цвет и кликабельность у главного заголовка */
+h1 a[href*="vsky.space/aescripts/"] {
+    color: #e0e0e0 !important;      /* Тот же цвет, что у body */
+    text-decoration: none !important; 
+    pointer-events: none;            /* Запрещаем клик */
+    cursor: default;
 }
 
-header h1 a {
-    color: inherit !important;      /* Берет цвет родителя (белый/серый) */
-    text-decoration: none !important; /* Убирает подчеркивание */
-    pointer-events: none;            /* Делает ссылку "некликабельной" */
-    cursor: default;                 /* Курсор будет как у текста, а не рука */
+h1, h2 {
+  border-bottom: 1px solid #333 !important;
 }
 
 table {
