@@ -1,8 +1,3 @@
----
----
-
-<link rel="stylesheet" href="https://vsky.space/assets/css/style.css">
-
 # AEScripts Notes
 
 Tested in After Effects 2020 // Made with ChatGPT
