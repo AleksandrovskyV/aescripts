@@ -1,4 +1,5 @@
 title: AEScripts Notes
-description: |
-  <link rel="stylesheet" href="https://vsky.space/assets/css/style.css">
-  Заметки по скриптам для After Effects.
+description: Заметки по скриптам для After Effects.
+# Этот блок принудительно вставит ссылку в заголовок страницы
+head: |
+  <link rel="stylesheet" href="https://vsky.space">
