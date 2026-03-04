@@ -11,6 +11,13 @@ h1, h2 {
   border-bottom: 1px solid #333 !important;
 }
 
+header h1 a {
+    color: inherit !important;      /* Берет цвет родителя (белый/серый) */
+    text-decoration: none !important; /* Убирает подчеркивание */
+    pointer-events: none;            /* Делает ссылку "некликабельной" */
+    cursor: default;                 /* Курсор будет как у текста, а не рука */
+}
+
 table {
   border: 1px solid #444;   // чтобы таблицы были видны на темном
 }
