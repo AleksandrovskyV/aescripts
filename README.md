@@ -10,7 +10,6 @@ Merge every N frames in Pre-Comp in After Effects // On Timeline
 
 ## Expressions
 
-### LoopOut("offset") for ShapePath value
 // LoopOut("offset") for ShapePath value between two linear keyframes, tested in AE 2020:
 
 ```javascript
