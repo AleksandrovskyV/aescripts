@@ -8,7 +8,7 @@ Merge every N frames in Pre-Comp in After Effects // On Timeline
 [merge_n_frame_in_pre-comp.jsx](https://aleksandrovskyv.github.io/aescripts/merge_n_frame_in_pre-comp.jsx)   // 3 Frames in example
 
 
-# Expressions
+# expressions
 
 // LoopOut("offset") for ShapePath value between two linear keyframes, tested in AE 2020:
 
