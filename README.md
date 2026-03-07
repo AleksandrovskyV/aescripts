@@ -10,8 +10,8 @@ Merge every N frames in Pre-Comp in After Effects // On Timeline
 
 ## Expressions
 
-### Path Offset Loop
-Это выражение создает бесконечный цикл для анимации путей (**Paths**) с накоплением смещения (аналог `loopOut("offset")`, который не работает для путей по умолчанию).
+### LoopOut("offset") for ShapePath value
+// LoopOut("offset") for ShapePath value between two linear keyframes, tested in AE 2020:
 
 ```javascript
 var pProp = thisProperty;
