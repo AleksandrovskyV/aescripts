@@ -24,26 +24,16 @@ table {
 }
 
 /* Фон для блоков кода (интерпретируемый Markdown) */
-pre, code, .highlight {
-  background-color: #1e1e1e !important; /* Глубокий серый/черный */
-  color: #dcdcdc !important;            /* Светлый текст */
-  border-radius: 6px;
-  border: 1px solid #333;
+pre {
+    background-color: #1e1e1e !important; /* Цвет фона кода */
+    padding: 16px;
+    border-radius: 8px;
+    overflow: auto;
+    border: 1px solid #333;
 }
 
-/* Стили для инлайнового кода (внутри текста) */
-p > code, li > code {
-  background-color: #2b2b2b !important;
-  padding: 0.2em 0.4em !important;
-}
-
-/* Фикс для подсветки синтаксиса (подгонка под темную тему) */
-.highlight pre {
-  background-color: transparent !important;
-  border: none !important;
-}
-
-/* Если используются стандартные темы GitHub (Cayman, Architect и т.д.) */
-.language-javascript, .language-js {
-  background-color: #1e1e1e !important;
+code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    color: #dcdcdc; /* Цвет текста */
+    font-size: 0.9em;
 }
