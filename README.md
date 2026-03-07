@@ -8,8 +8,12 @@ Merge every N frames in Pre-Comp in After Effects // On Timeline
 [merge_n_frame_in_pre-comp.jsx](https://aleksandrovskyv.github.io/aescripts/merge_n_frame_in_pre-comp.jsx)   // 3 Frames in example
 
 
-##Expressions
+## Expressions
 
+### Path Offset Loop
+Это выражение создает бесконечный цикл для анимации путей (**Paths**) с накоплением смещения (аналог `loopOut("offset")`, который не работает для путей по умолчанию).
+
+```javascript
 var pProp = thisProperty;
 
 if (pProp.numKeys > 1 && time > pProp.key(pProp.numKeys).time) {
