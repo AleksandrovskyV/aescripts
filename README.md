@@ -12,6 +12,7 @@ Merge every N frames in Pre-Comp in After Effects // On Timeline
 
 // LoopOut("offset") for ShapePath value between two linear keyframes, tested in AE 2020:
 
+{% raw %}
 ```javascript
 var pProp = thisProperty;
 
@@ -39,3 +40,4 @@ if (pProp.numKeys > 1 && time > pProp.key(pProp.numKeys).time) {
 } else {
     value;
 }
+{% endraw %}
